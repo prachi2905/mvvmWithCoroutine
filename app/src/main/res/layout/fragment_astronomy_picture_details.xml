@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragment.AstronomyPictureDetailsFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background"
+        android:padding="50dp">
+
+        <TextView
+            android:id="@+id/header_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_regular"
+            android:textColor="@color/textColor"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/date_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/roboto_regular"
+            android:textColor="@color/textColor"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/header_title" />
+
+        <ImageView
+            android:id="@+id/fev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/roboto_regular"
+            android:src="@drawable/ic_favorite_border"
+            android:textColor="@color/textColor"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/header_title" />
+
+        <TextView
+            android:id="@+id/discription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/roboto_regular"
+            android:textColor="@color/textColor"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/date_time" />
+
+        <TextView
+            android:id="@+id/headline1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/five_dp"
+            android:fontFamily="@font/roboto_regular"
+            android:textColor="@color/textColor"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/twenty"
+            android:text="Its wraped."
+            android:drawablePadding="@dimen/five_dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/discription"
+            app:drawableLeftCompat="@drawable/ic_warped" />
+        <TextView
+            android:id="@+id/headline2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/five_dp"
+            android:fontFamily="@font/roboto_regular"
+            android:textColor="@color/textColor"
+            android:textSize="12sp"
+            android:drawablePadding="@dimen/five_dp"
+            android:textStyle="bold"
+            android:text="Over 200 billions Starts."
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/headline1"
+            app:drawableLeftCompat="@drawable/ic_stars" />
+        <TextView
+            android:id="@+id/headline3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/five_dp"
+            android:fontFamily="@font/roboto_regular"
+            android:textColor="@color/textColor"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:drawablePadding="@dimen/five_dp"
+            android:text="Its really dustuy and gassy."
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/headline2"
+            app:drawableLeftCompat="@drawable/ic_dust" />
+        <TextView
+            android:id="@+id/headline4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_regular"
+            android:textColor="@color/textColor"
+            android:textSize="12sp"
+            android:padding="@dimen/five_dp"
+            android:drawablePadding="@dimen/five_dp"
+            android:textStyle="bold"
+            android:text="black hole at the center."
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/headline3"
+            app:drawableLeftCompat="@drawable/ic_blackhole" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

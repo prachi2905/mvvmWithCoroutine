@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Our Universe</string>
+    <string name="warped">It\'s warped.</string>
+    <string name="stars">Over 200 billion stars.</string>
+    <string name="gassy">It\'s really dusty and gassy.</string>
+    <string name="black_hole">Black hole at the centre.</string>
+    <string name="api_error">Oops! Something,Went wrong.\n Please Refresh and Try again</string>
+    <string name="reorder_list">Reorder List</string>
+    <string name="apply">Apply</string>
+    <string name="cancel">Cancel</string>
+    <string name="latest">Latest</string>
+    <string name="its_wraped">Its wraped.</string>
+    <string name="over_200_billions_starts">Over 200 billions Starts.</string>
+    <string name="its_really_dustuy_and_gassy">Its really dustuy and gassy.</string>
+    <string name="black_hole_at_the_center">black hole at the center.</string>
+    <string name="refresh">Refresh</string>
+</resources>
